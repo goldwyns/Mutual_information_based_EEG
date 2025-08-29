@@ -1,0 +1,23 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter
+.ipynb_checkpoints/
+*.ipynb_save
+
+# Ignore datasets & large results
+data/
+results/
+*.csv
+*.mat
+*.npy
+*.h5
+*.zip
+*.png
+*.jpg
+*.pdf
+
+# Ignore system files
+.DS_Store
+Thumbs.db
